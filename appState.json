@@ -16,13 +16,13 @@
       "b267c922-7fb4-4736-9a06-8b12ed0ec12d": {
         "id": "b267c922-7fb4-4736-9a06-8b12ed0ec12d",
         "parent": "bd564401-65c9-40b5-9962-c81f09e49f96",
-        "name": "new3.js",
+        "name": "new4.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "hi/new3.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "filePath": "hi/new4.js",
+        "code": "exports.handler = function(event, context, callback) {\n    ///\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -34,7 +34,7 @@
       }
     },
     "deletedFiles": [
-      "hi/new2.js"
+      "hi/new3.js"
     ],
     "rootNode": "bd564401-65c9-40b5-9962-c81f09e49f96",
     "openFiles": [
@@ -67,7 +67,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572594214543
+    "lastSave": 1572594253758
   },
   "VCS_STATE": {
     "provider": "GitHub",
