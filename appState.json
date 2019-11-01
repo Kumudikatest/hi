@@ -27,15 +27,13 @@
           "runtime": "nodejs8.10",
           "handler": "handler",
           "timeout": 60,
-          "memory": 128,
+          "memory": 640,
           "layers": []
         },
         "triggers": []
       }
     },
-    "deletedFiles": [
-      "hi/new3.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "bd564401-65c9-40b5-9962-c81f09e49f96",
     "openFiles": [
       "b267c922-7fb4-4736-9a06-8b12ed0ec12d"
@@ -67,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572594253758
+    "lastSave": 1572598280395
   },
   "VCS_STATE": {
     "provider": "GitHub",
