@@ -1,0 +1,79 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "bd564401-65c9-40b5-9962-c81f09e49f96": {
+        "id": "bd564401-65c9-40b5-9962-c81f09e49f96",
+        "parent": null,
+        "name": "hi",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2aea7ba8-ada1-44e4-8698-18b913660b9d"
+        ],
+        "isRemovable": false,
+        "filePath": "hi"
+      },
+      "2aea7ba8-ada1-44e4-8698-18b913660b9d": {
+        "id": "2aea7ba8-ada1-44e4-8698-18b913660b9d",
+        "parent": "bd564401-65c9-40b5-9962-c81f09e49f96",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hi/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [
+      "hi/new.js"
+    ],
+    "rootNode": "bd564401-65c9-40b5-9962-c81f09e49f96",
+    "openFiles": [
+      "2aea7ba8-ada1-44e4-8698-18b913660b9d"
+    ],
+    "currentFileId": "2aea7ba8-ada1-44e4-8698-18b913660b9d",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hi",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1572594071775
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hi",
+      "url": "https://github.com/Kumudikatest/hi"
+    }
+  }
+}
